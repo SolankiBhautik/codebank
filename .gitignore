@@ -1,0 +1,27 @@
+# Ignore node_modules for both frontend and backend
+**/node_modules
+node_modules
+
+# Ignore logs
+npm-debug.log
+*.log
+
+# Ignore environment files
+.env
+.env.local
+
+# Ignore build and temp files for frontend and backend
+frontend/build
+frontend/dist
+tmp/
+**/*.swp
+
+# Ignore Docker volumes
+.es_data
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,24 @@
+# Ignore node_modules for both frontend and backend
+**/node_modules
+node_modules
+
+# Ignore logs
+npm-debug.log
+*.log
+
+# Ignore Docker-specific files
+Dockerfile
+docker-compose.yml
+
+# Ignore frontend build files
+frontend/build
+frontend/dist
+
+# Ignore sensitive or environment-specific files
+.env
+.env.local
+.DS_Store
+
+# Ignore other temporary files
+tmp/
+*.swp

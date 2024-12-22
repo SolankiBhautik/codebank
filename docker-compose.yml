@@ -38,11 +38,6 @@ services:
         - action: sync
           path: ./backend
           target: /app
-    environment:
-      MONGO_URI: mongodb://root:password@mongodb:27017
-      ELASTIC_URI: http://elasticsearch:9200
-      PORT: 5000
-      jwtSecret: thisisfunprojectsoplzdonthackit
     command: [ "node", "app.js" ]
 
   frontend:
